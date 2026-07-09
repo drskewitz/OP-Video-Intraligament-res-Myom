@@ -8,31 +8,38 @@
 <style>
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background:#f7f7f7;
+    background:#f5f5f5;
     margin:0;
     padding:40px;
-    text-align:center;
 }
 
 .container{
-    max-width:1000px;
+    max-width:900px;
     margin:auto;
     background:white;
-    padding:30px;
-    border-radius:10px;
+    padding:40px;
+    border-radius:12px;
     box-shadow:0 0 15px rgba(0,0,0,0.1);
+    text-align:center;
 }
 
 h1{
-    font-size:2em;
-    margin-bottom:35px;
-    line-height:1.4;
+    line-height:1.5;
+    margin-bottom:40px;
 }
 
-video{
-    width:100%;
-    max-width:900px;
+.button{
+    display:inline-block;
+    padding:16px 30px;
+    background:#0057b8;
+    color:white;
+    text-decoration:none;
+    font-size:20px;
     border-radius:8px;
+}
+
+.button:hover{
+    background:#003f85;
 }
 </style>
 
@@ -46,10 +53,20 @@ video{
 Chirurgische Resektion eines intraligamentären Myoms im Ligamentum infundibulopelvicum unter Erhalt der Ovarialgefäße
 </h1>
 
-<video controls>
-    <source src="video.mp4" type="video/mp4">
-    Ihr Browser unterstützt dieses Videoformat nicht.
-</video>
+<p>
+Klicken Sie auf den folgenden Button, um das Operationsvideo zu öffnen.
+</p>
+
+<a class="button"
+<iframe
+    src="https://drive.google.com/file/d/DATEI-ID/preview"
+    width="800"
+    height="450"
+    allow="autoplay">
+</iframe>
+target="_blank">
+▶ OP-Video ansehen
+</a>
 
 </div>
 
