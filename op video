@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OP-Video</title>
+
+<style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f7f7f7;
+    margin:0;
+    padding:40px;
+    text-align:center;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,0.1);
+}
+
+h1{
+    font-size:2em;
+    margin-bottom:35px;
+    line-height:1.4;
+}
+
+video{
+    width:100%;
+    max-width:900px;
+    border-radius:8px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>
+Chirurgische Resektion eines intraligamentären Myoms im Ligamentum infundibulopelvicum unter Erhalt der Ovarialgefäße
+</h1>
+
+<video controls>
+    <source src="video.mp4" type="video/mp4">
+    Ihr Browser unterstützt dieses Videoformat nicht.
+</video>
+
+</div>
+
+</body>
+</html>
